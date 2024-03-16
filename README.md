@@ -1,5 +1,9 @@
 # Histopathology-Classification
 
+
+### Abstarct
+The Jupyter notebook contains all the Exploratory Data Analysis, preprocessing results, training results and evaluation. The code can be understood by looking at this .ipynb file as starting point. All helper functions are written in eda.py (preprocessing), train.py (training) and eval.py (evaluation and visualisation)
+
 We have used Resnet-18 pretrained model and Vision Transformer to perform the classification. We observe slightly better performance with Vision Transformers.
 
 ### Dataset Statistics
