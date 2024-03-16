@@ -17,7 +17,9 @@ The images fall into either of these classes:
 We notice a class imbalance and to fix this we perform upsampling, by incorporating augmentation via random rotation and mirroring. SMOTE upsampling was experimented with but it started to give poor results. So we resort to our custom sampling.
 
 We have used CLAHE to visualize the features better:
+
 <img src="images/EDA3.png" alt="Thumbnails" width="600"/>
+
 While CLAHE enhances image features it may or may not lead to an improved performance in our model as deep convolutional neural networks are good at simulating such preprocessing. We should however test this on a case by case basis.
 
 ### Models Used
@@ -29,5 +31,6 @@ Overall Vision Transformer gave the best results and the F1 score improved as we
 
 ### Visualising Results
 We have used grad-cam module to visualise the results and provide heatmaps of regions in the image the predominantly gave rise to classification towards the predicted label.
+
 <img src="images/RESULT1.png" alt="Thumbnails" width="600"/>
 
