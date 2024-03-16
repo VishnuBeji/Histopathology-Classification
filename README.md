@@ -28,8 +28,8 @@ While CLAHE enhances image features it may or may not lead to an improved perfor
 
 ### Models Used
 As an experiment, we tried a custom 6-layer CNN as our primitive model for the classification. This led to an accuracy of 70% and AUC of 0.68
-Secondly we tried Resnet-18 which led to an accuracy of and AUC of 
-Third, we tried a pretrained Vision Transformer (Trained on Imagenet-21k) which led to an accuracy of and AUC of
+Secondly we tried Resnet-18 which led to an accuracy of 81.67% and AUC of 0.891
+Third, we tried a pretrained Vision Transformer (Trained on Imagenet-21k) which led to an accuracy of 84.4% and AUC of 0.916
 
 Overall Vision Transformer gave the best results and the F1 score improved as well
 
