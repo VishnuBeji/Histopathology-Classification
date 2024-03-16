@@ -11,6 +11,6 @@ The images fall into either of these classes:
 - Hyperplastic Polyp (HP)
 - Sessile Serrated Adenoma (SSA)
 
-<img src="images/EDA1" alt="Thumbnails" width="400"/>
-<img src="images/EDA2.png" alt="Thumbnails" width="400"/>
+<img src="images/EDA1.png" alt="Thumbnails" width="700"/>
+<img src="images/EDA2.png" alt="Thumbnails" width="600"/>
 
